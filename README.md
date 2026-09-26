@@ -10,3 +10,6 @@
    javascript:(function(){const t=document.querySelector('iframe.scorm-iframe.is-visible')||document.querySelector('iframe.scorm-iframe');t&&t.src?window.open(t.src,'_blank'):alert('ServiceNow Universityのコース用フレームが見つかりませんでした。');})();
 3. ServiceNow Universityのコース画面（メインコンテンツが表示されている状態）で作成したブックマークをクリックします。
 4. 新しいタブでコンテンツのソースが直接開くため、ブラウザの「日本語に翻訳」を実行します。
+
+## 💡 簡単インストール
+コードのコピーが不要な専用インストールページ（GitHub Pages）をご用意しています。ページ内のボタンをブックマークバーにドラッグ＆ドロップするだけで簡単に導入できます。
