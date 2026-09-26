@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ServiceNow University 翻訳補助ブックマークレット</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
+        .bookmarklet-btn {
+            display: inline-block;
+            background: #0366d6;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .bookmarklet-btn:hover { background: #0056b3; }
+        code { background: #f6f8fa; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+      .box { background: #f1f8ff; border-left: 4px solid #0366d6; padding: 15px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>SNU 翻訳補助ブックマークレット</h1>
+    <p>ServiceNow Universityのフレーム制限を回避してブラウザ翻訳を有効にするためのツールです。</p>
+
+    <div class="box">
+        <h3>🚀 使い方（インストール）</h3>
+        <p>以下のボタンを、お使いのブラウザの<strong>ブックマークバーにドラッグ＆ドロップ</strong>してください。</p>
+        
+        <!-- ドラッグ＆ドロップ用リンク -->
+        <p>
+            <a class="bookmarklet-btn" href="javascript:(function(){const t=document.querySelector('iframe.scorm-iframe.is-visible')||document.querySelector('iframe.scorm-iframe');t&&t.src?window.open(t.src,'_blank'):alert('ServiceNow Universityのコース用フレームが見つかりませんでした。');})();">
+                SNU翻訳くん (ドラッグしてね)
+            </a>
+        </p>
+    </div>
+
+    <p><a href="https://github.com/mucho243/snu-translator-bookmarklet" target="_blank">GitHub Repository</a></p>
+</body>
+</html>
