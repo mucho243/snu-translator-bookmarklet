@@ -12,4 +12,5 @@
 4. 新しいタブでコンテンツのソースが直接開くため、ブラウザの「日本語に翻訳」を実行します。
 
 ## 💡 簡単インストール
-コードのコピーが不要な専用インストールページ（GitHub Pages）をご用意しています。ページ内のボタンをブックマークバーにドラッグ＆ドロップするだけで簡単に導入できます。
+コードのコピーが不要な[専用インストールページ（GitHub Pages）](https://mucho243.github.io/snu-translator-bookmarklet)をご用意しています。ページ内のボタンをブックマークバーにドラッグ＆ドロップするだけで簡単に導入できます。
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d721b312-190c-4e72-846b-4fa57639ef64" />
